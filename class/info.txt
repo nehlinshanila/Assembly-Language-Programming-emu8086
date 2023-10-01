@@ -1,0 +1,10 @@
+Question: take an array of size ten, display it, find the largest item and its index number, and whether or not the index is odd or even.
+
+points:
+-cant output from same reg we took input in. gotta move to different reg
+-for new line, use ins after single key output instruction
+-int 21h after almost every instruction
+-use dw if word and db if byte in data 
+-incase of word, print from dx not dl
+-a string must always end with , '$'
+-newline probably doesnt work in lea hence we use space
